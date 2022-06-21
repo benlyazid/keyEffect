@@ -1,0 +1,71 @@
+{
+    "name": "key-effect",
+    "displayName": "Key effect",
+    "description": "Key Sound is an extention that make mechanical keyboard sound effect when you type in vscode files with multiples choise of sound effects",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "icon": "icon.png",
+    "categories": [
+        "Keymaps",
+        "Programming Languages",
+        "Other",
+        "Notebooks",
+        "Testing",
+        "Typing"
+  
+    ],
+    "keywords": [
+        "key sound",
+        "sound effect",
+        "enjoy",
+        "mechanical",
+        "keymaps",
+        "keybind",
+        "keyboard",
+        "sound"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "ext.selectSound",
+                "title": "select a sound"
+            }
+        ]
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "node ./test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.2.0",
+        "@types/mocha": "^9.1.1",
+        "@types/node": "16.x",
+        "@types/vscode": "^1.68.0",
+        "@vscode/test-electron": "^2.1.3",
+        "eslint": "^8.16.0",
+        "glob": "^8.0.3",
+        "mocha": "^10.0.0",
+        "typescript": "^4.7.2"
+    },
+    "dependencies": {
+        "play-sound": "^1.1.5"
+    },
+    "publisher": "seven",
+    "bugs": {
+        "url": "https://github.com/benlyazid/keyEffect/issues",
+        "email": "benlyazidbest@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/benlyazid/keyEffect"
+    },
+    "homepage": "https://github.com/benlyazid/keyEffect"
+  }
+  
