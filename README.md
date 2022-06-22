@@ -1,4 +1,5 @@
-# keyEffect
+# keyEffect 
+## Enjoy typing without paying
 ## The idea and the sound effects was taken from https://kbs.im/
 Key Sound is an extention that make mechanical keyboard sound effect when you type in vscode files with multiples choise of sound effects
 
