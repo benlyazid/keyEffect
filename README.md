@@ -25,7 +25,7 @@ Key Sound is an extention that make mechanical keyboard sound effect when you ty
 ## HOW TO CHANGE THE EFFECT
 - macOS : ⇧ + ⌘ + P
 - Linux / Windows : Shift + Alt + P
-- type Choose key sound effect in input field
+- types electSound in input field
 
 Finally select your sound effect and enjoy your free mechanichal keyboard
 
