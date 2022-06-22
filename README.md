@@ -3,7 +3,7 @@
 Key Sound is an extention that make mechanical keyboard sound effect when you type in vscode files with multiples choise of sound effects
 
 <p align="center">
- <img src="icon.png" alt="The Documentation Compendium" width="200"></a>
+ <img src="banner.png" alt="The Documentation Compendium"></a>
 
 </p>
 
